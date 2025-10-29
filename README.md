@@ -34,7 +34,7 @@
 
 ### 安装步骤
 ```bash
-git clone https://github.com/yourname/E2T-AMR.git
+git clone https://github.com/chenxi000233/E2T-AMR.git
 cd E2T-AMR
 pip install -r requirements.txt
 export PYTHONPATH=$(pwd)/src
