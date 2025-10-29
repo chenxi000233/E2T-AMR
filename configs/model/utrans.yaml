@@ -1,0 +1,8 @@
+utrans:
+  d_model: 192
+  nhead: 3
+  num_layers: 2
+  dropout: 0.1
+  return_var: true
+  mc_samples: 4
+  use_temperature: true

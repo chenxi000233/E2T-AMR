@@ -1,0 +1,2 @@
+mkdir -p data/raw data/processed outputs/checkpoints outputs/logs docs
+touch data/.gitkeep outputs/.gitkeep

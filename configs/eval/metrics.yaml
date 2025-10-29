@@ -1,0 +1,6 @@
+# configs/eval/metrics.yaml
+eval:
+  metrics:
+    - accuracy
+    - confusion_matrix
+    - acc_per_snr

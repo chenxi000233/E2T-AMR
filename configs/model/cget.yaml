@@ -1,0 +1,9 @@
+# configs/model/cget.yaml
+cget:
+  enabled: true
+  hidden: 32
+  num_blocks: 2
+  pe_freqs: [1,2,4,8]
+  invariance_loss:
+    enabled: false
+    weight: 0.0

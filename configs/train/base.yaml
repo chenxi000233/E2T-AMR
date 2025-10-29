@@ -1,0 +1,19 @@
+train:
+  epochs: 100
+  batch_size: 256
+  lr: 1e-3
+  weight_decay: 1e-4
+  num_workers: 4
+  device: "cuda"
+  ckpt_dir: "outputs/checkpoints"
+  save_every: 5
+  log_interval: 50
+  seed: 42
+
+  # 新增：可配置损失
+  loss:
+    name: "cross_entropy"           # "cross_entropy" 或 "focal_ce"
+    label_smoothing: 0.05       # 两者都生效（CE/FC）
+    gamma: 2.0                  # 仅 FocalCE 用
+    class_balance: true         # 用训练集统计得到 class weight
+

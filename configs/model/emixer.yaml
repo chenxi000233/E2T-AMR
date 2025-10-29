@@ -1,0 +1,8 @@
+emixer:
+  in_dim: 128        # 各模态编码向量维度
+  d_model: 192
+  nhead: 3
+  num_layers: 2
+  dropout: 0.1
+  gate_hidden: 16
+  gate_mode: "sigmoid"   # or "softmax"

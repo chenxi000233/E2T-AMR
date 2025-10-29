@@ -1,0 +1,17 @@
+* text=auto eol=lf
+
+# 常见文本文件强制 LF
+*.py    text eol=lf
+*.md    text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+*.toml  text eol=lf
+*.tex   text eol=lf
+*.sh    text eol=lf
+*.cfg   text eol=lf
+*.txt   text eol=lf
+
+# Windows 脚本保留 CRLF（如需要）
+*.bat   text eol=crlf
+*.cmd   text eol=crlf
+*.ps1   text eol=crlf

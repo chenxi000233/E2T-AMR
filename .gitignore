@@ -1,0 +1,60 @@
+﻿# ---- Python bytecode & build ----
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.egg-info/
+*.egg
+.build/
+
+# ---- Virtual env / IDE ----
+.venv/
+venv/
+env/
+*.swp
+.DS_Store
+.vscode/
+.idea/
+
+# ---- Data & Models (DO NOT COMMIT) ----
+data/
+outputs/
+logs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.npz
+*.npy
+*.pkl
+*.bin
+*.h5
+*.tar
+*.gz
+*.zip
+
+# If you want to keep a doc file under data/, uncomment next line
+#!data/README.md
+
+# ---- Training / evaluation artifacts ----
+**/runs/
+**/wandb/
+**/tensorboard/
+**/*.log
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*.ipynb
+
+# ---- OS / tools ----
+Thumbs.db
+*.orig
+*.bak
+
+# ---- Node (if any front-end submodule) ----
+node_modules/
+
+# ---- Project note ----
+# We only track source code, configs, scripts, docs, and README.

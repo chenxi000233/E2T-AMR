@@ -1,0 +1,10 @@
+# configs/config.yaml
+defaults:
+  - data: rml2016_10a
+  - model: e2t_amr
+  - train: base
+  - eval: metrics
+
+# 可选额外全局设置
+project_name: E2T-AMR
+output_dir: outputs
