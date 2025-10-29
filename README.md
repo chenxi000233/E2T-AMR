@@ -269,7 +269,7 @@ python scripts/infer.py \
 ```bibtex
 @article{chen2025e2tamr,
   title={E2T-AMR: Enhanced End-to-End Multi-Modal Framework for Automatic Modulation Recognition},
-  author={Chen, Xi and Chen, Xu and Lei, Lin},
+  author={Xi Chen, Xu Chen and Lin Lei, et al.},
   journal={-},
   year={2025}
 }
