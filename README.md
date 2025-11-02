@@ -230,7 +230,7 @@ python scripts/infer.py \
 我们将 **E2T-AMR** 与代表性调制识别模型进行对比，包括 PET-CGDNN、MCLDNN、AMC-NET、FEA-T 和 IQFormer 等。  
 对比维度包括最高识别率（Highest Accuracy）、低信噪比性能（Low-SNR ≤ 0dB）、高信噪比性能（High-SNR > 0dB）及总体平均性能（OverAll）。
 
-| Model | Parameters | Highest Acc (%) | Low-SNR (≤0dB) | High-SNR (≥10dB) | OverAll (%) |
+| Model | Parameters | Highest Acc (%) | Low-SNR (≤0dB) | High-SNR (≥0dB) | OverAll (%) |
 |:------|:-----------:|:----------------:|:----------------:|:----------------:|:------------:|
 | PET-CGDNN | **0.07M** | 90.77 | 36.21 | 89.45 | 60.38 |
 | MCLDNN | 0.41M | 92.86 | 37.27 | 91.68 | 61.93 |
